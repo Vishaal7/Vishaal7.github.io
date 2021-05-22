@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+   width: 100vw;
+    
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    color:honeydew;
+}
+#abt{ position: absolute;
+    top:4.5vh;
+    right: 25vw;
+    font-size: 120%;
+    text-decoration: none;
+    color:ghostwhite;
+}
+
+#drop{
+   
+    position:absolute;
+    right:2vw;
+}
+.top-page{
+    background-image: url(./Vishaalbg.png);
+    background-size: 100vw 100vh;
+    background-position-y: -2vh;
+   
+    width: 100vw;
+    height: 90vh;
+}
+.slide ,select{
+    margin: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:14vw;
+    height: 6vh;
+    border-radius: 8px;
+    background-color:rgb(37, 34, 33);
+    font-size:2vw;
+    color: ghostwhite;
+}
+.myself{
+    width:90vw;
+    height: 45vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:5vw;
+    background-color:gainsboro;
+    position: relative;
+}
+h1{
+    font-size:5vw;
+    color: #075E54;
+    position: absolute;
+    left:5%;
+    border-bottom: 2px solid #075E54 ;
+}
+h2{ 
+    position: absolute;
+    margin: 20px;
+}
+
+.myself #vishaalpic{
+    position: absolute;
+    left:12vw;
+    top:13vw;
+    width:200px;
+    border: 10px  solid #fff;
+}
+.intro{
+    position: absolute;
+    left:34%;
+    top:11vw;
+    line-height: 1.8;
+    font-size: 120%;
+    padding-left: 3%;
+    border-left: 2px solid #075E54;
+    color:#075E54;
+}
+
+
+.interface{
+    display: flex;
+    flex-direction: column;
+    width:28vw;
+    height:43vw;
+    position: absolute;
+    left:15%;
+margin-top: 11vh;  
+    
+}
+.top{
+    width: 100%;
+    height: 4vw;
+    background-color: #075E54;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+.dp{
+    font-size: 25px;
+    color:#fff;
+    position: absolute;
+    left:4% ;
+   
+   
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    color:#fff;
+    margin:2% ;
+    position: absolute;
+    left: 15%;   
+}
+.user{
+    font-size: 110%;
+}
+small{
+    font-size: 80%;
+}
+
+
+.top .fa.fa-ellipsis-v, .fa.fa-phone{
+    font-size: 160%;
+    display: flex;
+    color: #fff;
+   
+}
+.fa.fa-phone{
+    position: absolute;
+    left:75%;
+}
+
+.fa.fa-ellipsis-v{
+    position: absolute;
+    left:90%;
+}
+.top img{
+    width: 20px;
+    position: absolute;
+    left:60%;
+}
+
+.content{
+    overflow-x: hidden;
+    width: 100%;
+    height:70vh;
+    background-color: black;
+    position: relative;
+    background-image: url(./chat.png);
+    background-size: contain;
+    
+}
+::-webkit-scrollbar{
+    width:8px ;
+
+}
+::-webkit-scrollbar-track{
+    background-color:#fff;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background:#128C7E;
+}
+.bottom{
+    display: flex;
+    align-items: center; 
+    background: transparent;
+    position: sticky;
+    width: 100%;
+    height:4vw;
+    bottom: 0;
+}
+.msg{
+    position: absolute;
+    left:15%;
+    color: #414242;
+    opacity: 0.7;
+}
+.left{
+  width:260px ;
+  height: fit-content;
+  margin-left: 1vw;
+  display: flex;
+  justify-content: left;
+  margin: 2%;
+  flex-wrap: wrap;
+  padding: 13px;
+ 
+  background-color: #fff;
+  border-radius: 5px;
+  position: relative;
+}
+.l-time{
+    font-size: 70%;
+    position: absolute;
+    bottom:0;
+    right: 2%;
+}
+
+.right{
+    width:fit-content;
+    max-width: 260px;
+    min-width: 190px;
+    height:fit-content;
+    display: flex;
+    justify-content: left;
+    
+    margin: 2%;
+    margin-left: auto;
+    margin-right: 2%;
+    padding: 13px;
+    
+    background-color: #DCF8C6;
+    position: relative;
+    border-radius: 5px;
+  
+    
+}
+.r-time{
+    font-size: 70%;
+    position: absolute;
+    bottom:0;
+    right: 2%;
+}
+.fa.fa-check{
+    color:grey;
+}
+.fa.fa-check.ch{
+    margin: 0;
+    padding: 0;
+    transform: translateX(-4px);
+    color:grey;
+    
+}
+
+.type{
+   display: flex;
+   align-items: center;
+    height: 60%;
+    width: 80%;
+    margin-left: 3%;
+    border-radius: 45px;
+    background: #fff;
+    position: relative;
+}
+.type i{
+    font-size: 140%;
+    color: #757370;
+}
+.fa.fa-paperclip{
+    position: absolute;
+    left:75%;
+}
+.fa.fa-camera{
+    position: absolute;
+    left:90%;
+}
+.type img{
+    position: absolute;
+    left:2%;
+   width: 8%;
+}
+.mic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 140% ;
+    left:1%;
+    color: #fff;
+    background-color: #075E54;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.sections{
+    text-align: center;
+    display:flex;  
+    flex-wrap: wrap;
+    align-items: center;
+justify-content: center;
+    position: absolute;
+    left:50vw;
+    margin-top: 28vh;
+    width: 35vw;
+    background-color: gainsboro;
+    
+    
+}
+.sections div{
+ 
+    font-size: 100%;
+    padding:4%;
+    margin: 4%;
+    width:30%;
+    background-color: #075E54;
+    border-radius: 20px;
+    color:#fff;
+}
+.sections div:hover{
+    cursor: pointer;
+}
+.chatreplay h1{
+    margin-top:11vh ;
+    left:52vw;
+}
+.chatreplay div{
+    left:45vw;
+}
+.footer{
+    position: relative;
+    left:52%;
+    margin-top: 45%;
+}
+.set3,.set4,.set5,.set6,.set7,.set8,.set9,.set10{
+    display: none;
+}
+.scrollthrough h2{
+    position: absolute;
+    left:14vw;
+    width:max-content;
+    height: 6vh;
+    border-radius: 10px;
+    background-color: gainsboro;
+}
+.exit{
+    position: relative;
+    left:15vw;
+    top:10vh;
+
+}
+@media  screen and (max-width:900px) {
+    body{font-size: 80%;}
+   .myself{
+       height:96vh;
+       width: 100vw;
+       right:10px;
+       
+   } .intro{
+        font-size: 97%;
+        left:33%;
+    }
+    #abt{
+        right:25vw;
+        width: 80px;
+        top:0vh;
+        font-size: 100%;
+        transform: translateY(100%);
+    }
+    #drop{
+        right:3vw;
+        width:60px;
+
+    }
+    .myself #vishaalpic{
+        left:4%;
+        width:100px;
+    }
+    .interface{
+        left:10px;
+        width:95vw;
+        height:100vh;
+    }
+    .top{
+        height: 8vh;
+    }
+    .content{
+        height: 90vh;
+    }
+    .sections,.footer{
+        display: none;
+    }
+    .bottom{
+        height:8vh;
+    }
+    .scrollthrough h2{
+        left:0;
+        margin: 22px;
+    }
+    .exit{
+        left:5vw;
+    }
+    .set3,.set4,.set5,.set6,.set7,.set8,.set9,.set10{
+        display: block;
+    }
+    .top-page{
+        background-size:cover;
+        
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x:37%;
+        
+    }
+    
+}
+
+
