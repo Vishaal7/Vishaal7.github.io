@@ -357,7 +357,7 @@ justify-content: center;
 @media  screen and (max-width:900px) {
     body{font-size: 80%;}
    .myself{
-       height:96vh;
+       height:98vh;
        width: 100vw;
        right:10px;
        
